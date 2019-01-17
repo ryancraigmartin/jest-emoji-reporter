@@ -1,0 +1,24 @@
+{
+  "name": "jest-simple-emoji-reporter",
+  "version": "1.0.1",
+  "description": "A simple custom reporter for Jest featuring emojis.",
+  "main": "jest-simple-emoji-reporter.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emoji/jest-simple-emoji-reporter.git"
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "simple",
+    "custom",
+    "emoji",
+    "reporter"
+  ],
+  "author": "Ryan Craig Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryancraigmartin/jest-simple-emoji-reporter/issues"
+  },
+  "homepage": "https://github.com/ryancraigmartin/jest-simple-emoji-reporter#readme"
+}
