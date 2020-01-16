@@ -1,6 +1,6 @@
 {
   "name": "jest-simple-emoji-reporter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple custom reporter for Jest featuring emojis.",
   "main": "jest-simple-emoji-reporter.js",
   "repository": {
