@@ -2,6 +2,16 @@
   <img src="https://jestjs.io/img/jest.png" height="75" width="75"/>
   <h2 align="center">jest-simple-emoji-reporter</h2>
   <h3 align="center">A simple, yet effective custom reporter for Jest.</h3>
+
+  ![Size](https://img.shields.io/github/repo-size/ryancraigmartin/jest-simple-emoji-reporter?style=plastic&color=green&label=Size)
+  ![License](https://img.shields.io/github/license/ryancraigmartin/jest-simple-emoji-reporter?style=plastic&color=lightgrey&label=License)
+  ![Updated](https://img.shields.io/github/last-commit/ryancraigmartin/jest-simple-emoji-reporter?style=plastic&color=red&label=Updated)
+  ![Stars](https://img.shields.io/github/stars/ryancraigmartin/jest-simple-emoji-reporter?style=plastic&color=ffd500&label=Stars)
+  ![Forks](https://img.shields.io/github/forks/ryancraigmartin/jest-simple-emoji-reporter?style=plastic&color=brightgreen&label=Forks)
+  ![Watchers](https://img.shields.io/github/watchers/ryancraigmartin/jest-simple-emoji-reporter?style=plastic&color=orange&label=Watchers)
+  ![Contributors](https://img.shields.io/github/contributors/ryancraigmartin/jest-simple-emoji-reporter?style=plastic&color=ff69b4&label=Contributors)
+  ![Followers](https://img.shields.io/github/followers/ryancraigmartin?style=plastic&color=blue&label=Followers)
+
 </div>
 
 # Installation
