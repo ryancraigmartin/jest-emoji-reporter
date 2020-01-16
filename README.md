@@ -8,14 +8,14 @@
 
 Install jest-simple-emoji-reporter using [`yarn`](https://yarnpkg.com/en/package/jest):
 
-```bash
-yarn add --dev jest-simple-emoji-reporter
+```sh
+yarn add jest-simple-emoji-reporter
 ```
 
 Or via [`npm`](https://www.npmjs.com/):
 
-```bash
-npm install --save-dev jest-simple-emoji-reporter
+```sh
+npm install jest-simple-emoji-reporter
 ```
 
 ## Configuration
@@ -33,7 +33,7 @@ module.exports = {
 };
 ```
 
-Or add it to your Jest configuration within your package.json
+Or add it to your Jest configuration within your package.json:
 
 ```javascript
 // package.json
@@ -48,6 +48,13 @@ Or add it to your Jest configuration within your package.json
 }
 ```
 
+## Legend
+Emoji | Value
+--- | ---
+✅ | Pass
+🔃 | Pending
+❌ | Fail
+
 ### Credit
 
-This package is a modified version of [jodonnell's jest-simple-dot-reporter.](https://github.com/jodonnell/jest-simple-dot-reporter)
+This package is an experiment in publishing on NPM as well as my own take on [jodonnell's jest-simple-dot-reporter.](https://github.com/jodonnell/jest-simple-dot-reporter)
