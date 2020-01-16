@@ -1,4 +1,5 @@
 const log = console.log
+const error = console.error
 const stdout = process.stdout
 const pluralize = (word, count) => `${count} ${word}${count === 1 ? "" : "s"}`;
 
@@ -20,7 +21,7 @@ module.exports = class JestSimpleEmojiReporter {
 
     testSuite.testResults.forEach(result => (
       result.status === 'failed'
-        ? log(`❌ - ${result.title}`)
+        ? error(`❌ - ${result.title}`)
         : logResult(result.status, result.title)
     ))
   }
@@ -36,7 +37,7 @@ module.exports = class JestSimpleEmojiReporter {
     } = results;
 
     stdout.write("\n");
-    testResults.map(({ failureMessage }) => { if (failureMessage) log(failureMessage); });
+    testResults.map(({ failureMessage }) => { if (failureMessage) error(failureMessage); });
 
     if (!results.snapshot.didUpdate && results.snapshot.unchecked) {
       const obsoleteError = pluralize("obsolete snapshot", results.snapshot.unchecked) + " found.";
